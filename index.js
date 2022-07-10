@@ -10,8 +10,8 @@ function schedule(members) {
 
   const n = members.length
   for (let i = 1; i <= n / 2; i++) {
-    const [element] = members.splice(i, 1);
-    members.splice(n - i, 0, element);
+    const [element] = members.splice(i, 1)
+    members.splice(n - i, 0, element)
   }
 
   const pivot = members.pop()

@@ -4,12 +4,14 @@
   "description": "Generates matches of pairs of array elements, in round-robin fashion",
   "main": "index.js",
   "scripts": {
+    "format": "prettier --write index.js test",
     "test": "jest",
     "test:watch": "jest --watch"
   },
   "author": "bluepostit",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^28.1.2"
+    "jest": "^28.1.2",
+    "prettier": "^2.7.1"
   }
 }
