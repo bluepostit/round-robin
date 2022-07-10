@@ -1,5 +1,5 @@
 {
-  "name": "round-robin",
+  "name": "@bluepostit/round-robin",
   "version": "1.0.0",
   "description": "Generates matches of pairs of array elements, in round-robin fashion",
   "main": "index.js",
@@ -10,6 +10,10 @@
   },
   "author": "bluepostit",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bluepostit/round-robin"
+  },
   "devDependencies": {
     "jest": "^28.1.2",
     "prettier": "^2.7.1"
