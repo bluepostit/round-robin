@@ -14,6 +14,9 @@
     "type": "git",
     "url": "https://github.com/bluepostit/round-robin"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "jest": "^28.1.2",
     "prettier": "^2.7.1"
